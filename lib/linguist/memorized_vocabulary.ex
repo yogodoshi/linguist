@@ -1,7 +1,7 @@
 defmodule Linguist.MemorizedVocabulary do
   alias Linguist.Compiler
   alias Linguist.{NoTranslationError, LocaleError}
-  alias Cldr.Number.Cardinal
+  alias Linguist.Cldr.Number.Cardinal
 
   defmodule TranslationDecodeError do
     defexception [:message]

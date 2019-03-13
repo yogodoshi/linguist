@@ -1,6 +1,6 @@
 defmodule Linguist.Compiler do
   alias Linguist.NoTranslationError
-  alias Cldr.Number.Cardinal
+  alias Linguist.Cldr.Number.Cardinal
 
   @doc ~S"""
   Compiles keyword list of transactions into function definitions AST
